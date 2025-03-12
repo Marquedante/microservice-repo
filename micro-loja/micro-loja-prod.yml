@@ -1,7 +1,7 @@
 
 
 spring:
-  datasource:  # pode ser removido se loja.yml estiver configurado corretamente
+  datasource:  #CONTEUDO MOVIDO PARA O ARQUIVO loja.yml
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: 123456
