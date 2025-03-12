@@ -11,7 +11,7 @@ jpa:
   show-sql: true
   properties:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
       format_sql: true
       jdbc:
         lob:
