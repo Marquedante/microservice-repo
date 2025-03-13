@@ -1,0 +1,17 @@
+spring:
+  datasource:           #CONTEUDO MOVIDO PARA O ARQUIVO transportador.yml
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 123456
+    url: jdbc:postgresql://localhost:5432/transportador
+  jpa:
+   properties:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    properties:
+      jdbc:
+            lob:
+              non_contextual_creation: true
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    # database-platform: org.hibernate.dialect.PostgreSQLDialect
